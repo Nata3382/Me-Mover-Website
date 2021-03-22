@@ -232,6 +232,7 @@ form label {
   line-height: 1.5rem;
   font-weight: lighter;
   margin-top: 20px;
+  font-size: 15px;
 }
 
 button {
@@ -251,6 +252,11 @@ button:hover {
   opacity: 100%;
 }
 
+#form_container input {
+  width: 350px;
+  height: 20px;
+}
+
 footer {
   margin-top: 5rem;
   display: flex;
@@ -262,4 +268,32 @@ footer img {
   min-width: 550px;
   max-width: 550px;
   align-self: center;
+}
+
+@media screen and (max-width: 550px) {
+  #the_benefits h2 {
+    font-size: 65px;
+  }
+
+  #three_points h2 {
+    font-size: 35px;
+    margin-top: -135px;
+  }
+
+  .route_text {
+    font-size: 40px;
+  }
+
+  #workouts_routes h4 {
+    font-size: 40px;
+  }
+
+  #tours img {
+    max-width: 300px;
+  }
+
+  #testimonials h5 {
+    font-size: 55px;
+    padding-left: 30px;
+  }
 }
