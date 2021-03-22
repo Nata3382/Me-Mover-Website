@@ -175,6 +175,10 @@ header {
   margin-bottom: 1.5rem;
 }
 
+#tours img:hover {
+  opacity: 50%;
+}
+
 #testimonials {
   background-color: #ededed;
   margin-top: -100px;
@@ -270,14 +274,31 @@ footer img {
   align-self: center;
 }
 
+#map {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 1.5px solid black;
+  max-width: 100%;
+}
+
+#gradient {
+  width: 100wv;
+  height: 40px;
+  background: linear-gradient(180deg, #49bdd5 50%, white 50%);
+  position: relative;
+  z-index: -10;
+  margin-top: -40px;
+}
+
 @media screen and (max-width: 550px) {
   #the_benefits h2 {
     font-size: 65px;
   }
 
   #three_points h2 {
-    font-size: 35px;
-    margin-top: -135px;
+    font-size: 25px;
+    margin-top: -130px;
   }
 
   .route_text {
